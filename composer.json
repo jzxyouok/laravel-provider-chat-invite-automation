@@ -1,0 +1,23 @@
+{
+    "name": "richellin/laravel-provider-chat-invite-automation",
+    "description": "laravel slack invite automation",
+    "keywords": ["laravel slack invaite automation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sangjun",
+            "email": "richellin7@gmail.com"
+        }
+    ],
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+	"richellin/php-chat-invite-automation": "0.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "richellin\\chat\\Laravel": "src/"
+        }
+    }
+}
