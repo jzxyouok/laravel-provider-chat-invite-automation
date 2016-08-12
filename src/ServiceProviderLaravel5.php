@@ -1,5 +1,5 @@
 <?php
-namespace richellin\chat\Laravel;
+namespace richellin\invite\Laravel;
 
 use \richellin\chat\Invite;
 use \richellin\chat\Channel\Slack;
@@ -22,9 +22,9 @@ class ServiceProviderLaravel5 extends \Illuminate\Support\ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(__DIR__.'/config/config.php', 'invite');
-        $this->app['richellin.chat.invite'] = $this->app->share(function ($app) {
+        $this->app['richellin.invite'] = $this->app->share(function ($app) {
             return new Invite()->channel(new Slack());
         });
-        $this->app->bind('\richellin\chat\Invite', 'richellin.chat.invite');
+        $this->app->bind('\richellin\chat\Invite', 'richellin.invite');
     }
 }

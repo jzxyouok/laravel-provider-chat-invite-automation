@@ -1,5 +1,5 @@
 <?php
-namespace richellin\chat\Laravel;
+namespace richellin\invite\Laravel;
 use RuntimeException;
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
@@ -67,6 +67,6 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function provides()
     {
-        return ['richellin.chat.invite'];
+        return ['richellin.invite'];
     }
 }
