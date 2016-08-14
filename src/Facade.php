@@ -1,5 +1,6 @@
 <?php
 namespace richellin\chat\Laravel;
+
 class Facade extends \Illuminate\Support\Facades\Facade
 {
     /**

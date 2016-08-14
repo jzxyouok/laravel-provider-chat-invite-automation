@@ -1,6 +1,8 @@
 <?php
 namespace richellin\invite\Laravel;
+
 use RuntimeException;
+
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     /**
