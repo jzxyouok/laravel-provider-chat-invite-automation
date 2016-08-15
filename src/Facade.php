@@ -1,5 +1,5 @@
 <?php
-namespace richellin\chat\Laravel;
+namespace richellin\invite\Laravel;
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {
@@ -10,6 +10,6 @@ class Facade extends \Illuminate\Support\Facades\Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'richellin.chat.invite';
+        return 'richellin.invite';
     }
 }
