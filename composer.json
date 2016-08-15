@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "richellin\\chat\\Laravel": "src/"
+            "richellin\\invite\\Laravel\\": "src/"
         }
     }
 }
